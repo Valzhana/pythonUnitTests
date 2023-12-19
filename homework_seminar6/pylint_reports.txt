@@ -1,0 +1,22 @@
+\pythonUnitTests\homework_seminar6> pylint num_lists.py
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+
+
+
+\pythonUnitTests\homework_seminar6> pylint test_num_lists.py
+************* Module homework_seminar6.test_num_lists
+test_num_lists.py:21:14: W0621: Redefining name 'list1' from outer scope (line 10) (redefined-outer-name)
+test_num_lists.py:21:21: W0621: Redefining name 'list2' from outer scope (line 16) (redefined-outer-name)
+test_num_lists.py:28:28: W0621: Redefining name 'list1' from outer scope (line 10) (redefined-outer-name)
+test_num_lists.py:28:35: W0621: Redefining name 'list2' from outer scope (line 16) (redefined-outer-name)
+test_num_lists.py:54:39: W0621: Redefining name 'list1' from outer scope (line 10) (redefined-outer-name)
+test_num_lists.py:54:46: W0621: Redefining name 'list2' from outer scope (line 16) (redefined-outer-name)
+test_num_lists.py:62:40: W0621: Redefining name 'list1' from outer scope (line 10) (redefined-outer-name)
+test_num_lists.py:62:47: W0621: Redefining name 'list2' from outer scope (line 16) (redefined-outer-name)
+test_num_lists.py:70:24: W0621: Redefining name 'list1' from outer scope (line 10) (redefined-outer-name)
+
+------------------------------------------------------------------
+Your code has been rated at 7.50/10 (previous run: 7.86/10, -0.36)
